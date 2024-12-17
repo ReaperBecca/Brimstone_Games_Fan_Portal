@@ -8,3 +8,27 @@ body.loaded {
     margin: 0;
     padding: 0;
 }
+
+/* Add basic styling for nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+/* Add basic styling for sections */
+section {
+    padding: 2rem;
+}
+
+/* Add basic styling for footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+}
